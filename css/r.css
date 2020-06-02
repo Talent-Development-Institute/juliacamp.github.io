@@ -1,0 +1,60 @@
+.textWhite {
+    color: white !important;
+}
+
+.textBlack {
+    color: black !important;
+}
+
+.textNor {
+    color: #808080 !important;
+}
+
+.themeStyleTextColor {
+    color: #7971ea !important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.textBlackTitle {
+    font-weight: 500;
+}
+
+.circleImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+
+/* .owl-carousel {
+    width: max-content !important;
+} */
+
+.w-max-content {
+    width: max-content !important;
+}
+
+.bgGray {
+    background-color: c7c7c7 !important;
+}
+
+.justify {
+    text-align: justify !important;
+}
+
+
+
+/*  */
+.miniIcon {
+    background-image: url(.././imagesR/miniIcon/003.png);
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
