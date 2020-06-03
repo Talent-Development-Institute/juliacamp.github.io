@@ -58,3 +58,66 @@
     display: inline-block;
     margin-bottom: 40px;
 }
+
+
+
+.container3 {
+    width: 100%;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.courseModule {
+    background-color: white;
+}
+
+.curriculum-tab {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #7971ea;
+}
+
+.courseModule:hover {
+
+    background-color: #7971ea !important;
+    color: white !important;
+}
+
+.borderFixed {
+    border-width: 2px;
+    border-color: #7971ea;
+}
+
+.nav-pills .nav-link { 
+    /* border-width: -8px; */
+    border-radius: 0.15rem;
+}
+
+[aria-expanded="true"] .courseModule {
+    background-color: #7971ea !important;
+    color: white !important;
+}
+
+[aria-selected="true"] h6 {
+    /* background-color: #F6783A !important; */
+    color: white !important;
+}
+
+.f14 {
+    font-size: 14px !important;
+}
+
+.verCentre {
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+}
+
+@media (max-width: 320px) {
+    .f14 {
+        font-size: 11px !important;
+    }
+}
+
