@@ -26,7 +26,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-  }
+}
 
 
 /* .owl-carousel {
@@ -90,7 +90,7 @@
     border-color: #7971ea;
 }
 
-.nav-pills .nav-link { 
+.nav-pills .nav-link {
     /* border-width: -8px; */
     border-radius: 0.15rem;
 }
@@ -111,8 +111,10 @@
 
 .verCentre {
     display: flex;
-justify-content: center; /* align horizontal */
-align-items: center; /* align vertical */
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
 }
 
 @media (max-width: 320px) {
@@ -120,4 +122,3 @@ align-items: center; /* align vertical */
         font-size: 11px !important;
     }
 }
-
