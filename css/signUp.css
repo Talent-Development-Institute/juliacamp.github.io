@@ -1,0 +1,33 @@
+.formFrameRadius {
+    border-radius: 25px;
+}
+
+.ui-checklist {
+    list-style: none;
+}
+
+.ui-checklist li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ui-checklist li:not(:last-child) {
+margin-bottom: 15px;
+}
+
+.ui-checklist li:before {
+    content: "\f00c";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+}
+
+.paraAbsPosToLi {
+    position: absolute;
+    top: 0px;
+}
