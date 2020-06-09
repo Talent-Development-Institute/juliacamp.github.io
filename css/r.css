@@ -130,6 +130,12 @@
 /*  */
 
 
+@media (max-width: 1199px) {
+    .nextAndPrevBtn {
+        display: flex !important;
+    }
+}
+
 @media (max-width: 320px) {
     .f14 {
         font-size: 11px !important;
