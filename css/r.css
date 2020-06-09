@@ -117,6 +117,19 @@
     /* align vertical */
 }
 
+/* amz templates */
+.containerFix {
+    max-width: 600px !important;
+}
+
+.fsFix {
+    font-size: 2rem;
+}
+
+
+/*  */
+
+
 @media (max-width: 320px) {
     .f14 {
         font-size: 11px !important;
