@@ -31,3 +31,12 @@ margin-bottom: 15px;
     position: absolute;
     top: 0px;
 }
+
+
+.hrefInBtn {
+    color: white !important;
+}
+
+.hrefInBtn:hover {
+    color: white !important;
+}
